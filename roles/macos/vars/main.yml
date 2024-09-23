@@ -1,0 +1,114 @@
+---
+dockitems_remove:
+  - Safari
+  - Calendar
+  - Contacts
+  - Notes
+  - TV
+  - Music
+
+dockitems_persist:
+  - name: "Disk Utility"
+    path: "/Applications/Utilities/Disk Utility.app"
+    pos: 2
+
+  - name: "App Store"
+    path: "/Applications/App Store.app"
+    pos: 3
+
+  - name: "Launchpad"
+    path: "/Applications/Launchpad.app"
+    pos: 4
+
+  - name: "Homekit"
+    path: "/Applications/Homekit.app"
+    pos: 5
+
+  - name: "iTerm2"
+    path: "/Applications/iTerm2.app"
+    pos: 6
+
+  - name: "Freeform"
+    path: "/Applications/Freeform.app"
+    pos: 7
+  
+  - name: "FreeFileSync"
+    path: "/Applications/FreeFileSync.app"
+    pos: 8
+
+  - name: "Facetime"
+    path: "/Applications/Facetime.app"
+    pos: 9
+
+  - name: "Messages"
+    path: "/Applications/Messages.app"
+    pos: 10
+
+  - name: "Orion"
+    path: "/Applications/Orion.app"
+    pos: 11
+  
+  - name: "Structured"
+    path: "/Applications/Structured.app"
+    pos: 12
+
+  - name: "System Settings"
+    path: "/Applications/System Settings.app"
+    pos: 13
+  
+  - name: "Mail"
+    path: "/Applications/Mail.app"
+    pos: 14
+
+  - name: "Calendar"  
+    path: "/Applications/Calendar.app"
+    pos: 15
+
+mas_packages:
+# dock items
+  - { id: 1499198946, name: "Structured - Daily Planner" }
+# menu bar
+  - { id: 1160435653, name: "AutoMounter" }
+  - { id: 1475387142, name: "Tailscale" }
+  - { id: 1352778147, name: "Bitwarden" }
+  - { id: 905953485, name: "NordVPN" }
+# apps
+  - { id: 360593530, name: "Notability" }
+  - { id: 6443941139, name: "2FAS - Two Factor Authentication Extension" }
+  - { id: 803453959, name: "Slack" }
+  - { id: 497799835, name: "Xcode" }
+  - { id: 899247664, name: "TestFlight" }
+  - { id: 524141863, name: "Jump Desktop (RDP, VNC, Fluid)" }
+
+# Need to Install:
+#   ideas: https://gist.github.com/chris-sev/45a92f4356eaf4d68519d396ef42dd99
+#   - Jump Desktop Connect https://www.jumpdesktop.com
+#   - FreeFileSync https://freefilesync.org/thank-you.php?tx=0LS47496BB238562F
+#   - DaVinci Resolve https://www.blackmagicdesign.com/products/davinciresolve
+#   - Adobe Lightroom CC https://www.adobe.com/products/lightroom.html
+#   - Negative Lab Pro https://www.negative.com/products/negative-lab-pro
+#   - VSCode https://code.visualstudio.com/download
+#   - Spotify https://www.spotify.com
+#   - Backblaze https://www.backblaze.com
+#   - Czkawka https://github.com/qarmin/czkawka
+#   - RekordBox https://rekordbox.com
+#   - Anki https://ankiweb.net
+#   - Ableton Live 11 https://ableton.com/en/live/
+#   - Synology Drive Client https://www.synology.com/en-us/drive
+#   - Photosync Companion https://www.photosync.com/en-us
+#   - Expo Orbit https://expo.io
+
+
+# Things to do:
+#   - resync syncthing tasks to Kanto NAS and SSD drives
+#   - Install oh-my-zsh? add git highlighting and whatever's on there?
+#   - Add Adobe Lightroom Export and Photo Presets back to the lightroom library
+#   - Install Negative Lab Pro for Adobe Lightroom
+#   - Install custom fonts in Apple Font Book
+#   - Configure hot corners
+#   - Configure mouse settings through logi options
+#   - Configure time machine settings
+#   - figure out a way to use watchman, rsync, freefilesync, etc in order to sync files to some remote host whenever a change occurs AND every so often
+
+# Glob pattern to ansible task files to run after all other tasks are finished.
+# figure out what these tasks are

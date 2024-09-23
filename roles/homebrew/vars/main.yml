@@ -1,0 +1,48 @@
+---
+homebrew_packages:
+- node
+- imessage-exporter
+- libraw
+- mas
+- midnight-commander
+- rclone
+- gh
+- watchman
+- mackup
+- dockutil
+- tmux
+- diff-so-fancy
+- pure
+- exiftool
+- zsh-autosuggestions
+- neovim
+- curl
+- zsh-completions
+- stow
+- tree
+- rsync
+- htop
+
+homebrew_casks:
+- google-chrome
+- jordanbaird-ice
+- mactex
+- orion
+- raycast
+- rectangle
+- shottr
+- syncthing
+- iterm2
+- visual-studio-code
+- vlc
+- spotify
+- obsidian
+- applite
+- forklift
+
+  # - name: node # don't know if I care to install this
+  # - name: pyenv # don't know if I care to install this
+  # - name: warp # don't know if I care to install this
+  # - name: rustup # install this through rust?
+  # above was installed with applite
+

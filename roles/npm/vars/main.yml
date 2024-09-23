@@ -1,0 +1,4 @@
+---
+npm_packages:
+  - name: npm
+  - name: expo
