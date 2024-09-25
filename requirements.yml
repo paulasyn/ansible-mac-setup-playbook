@@ -1,0 +1,10 @@
+roles:
+  - name: elliotweiser.osx-command-line-tools
+  - name: geerlingguy.dotfiles
+  - name: community.general.mas
+  - name: community.general.npm
+
+collections:
+  - name: geerlingguy.mac
+
+# ansible-galaxy install -r requirements.yml

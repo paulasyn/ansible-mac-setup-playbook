@@ -31,7 +31,7 @@ dockitems_persist:
   - name: "Freeform"
     path: "/Applications/Freeform.app"
     pos: 7
-  
+
   - name: "FreeFileSync"
     path: "/Applications/FreeFileSync.app"
     pos: 8
@@ -47,7 +47,7 @@ dockitems_persist:
   - name: "Orion"
     path: "/Applications/Orion.app"
     pos: 11
-  
+
   - name: "Structured"
     path: "/Applications/Structured.app"
     pos: 12
@@ -55,30 +55,32 @@ dockitems_persist:
   - name: "System Settings"
     path: "/Applications/System Settings.app"
     pos: 13
-  
+
   - name: "Mail"
     path: "/Applications/Mail.app"
     pos: 14
 
-  - name: "Calendar"  
+  - name: "Calendar"
     path: "/Applications/Calendar.app"
     pos: 15
 
 mas_packages:
 # dock items
-  - { id: 1499198946, name: "Structured - Daily Planner" }
+- 1499198946 # Structured - Daily Planner
 # menu bar
-  - { id: 1160435653, name: "AutoMounter" }
-  - { id: 1475387142, name: "Tailscale" }
-  - { id: 1352778147, name: "Bitwarden" }
-  - { id: 905953485, name: "NordVPN" }
+- 1160435653 # AutoMounter
+- 1475387142 # Tailscale
+- 1352778147 # Bitwarden
+- 905953485  # NordVPN
+- 1569600264 # Pandan
 # apps
-  - { id: 360593530, name: "Notability" }
-  - { id: 6443941139, name: "2FAS - Two Factor Authentication Extension" }
-  - { id: 803453959, name: "Slack" }
-  - { id: 497799835, name: "Xcode" }
-  - { id: 899247664, name: "TestFlight" }
-  - { id: 524141863, name: "Jump Desktop (RDP, VNC, Fluid)" }
+- 360593530  # Notability
+- 6443941139 # 2FAS - Two Factor Authentication Extension
+- 803453959  # Slack
+- 497799835  # Xcode
+- 899247664  # TestFlight
+- 524141863  # Jump Desktop (RDP, VNC, Fluid)
+- 497799835  # Xcode
 
 # Need to Install:
 #   ideas: https://gist.github.com/chris-sev/45a92f4356eaf4d68519d396ef42dd99
@@ -97,7 +99,6 @@ mas_packages:
 #   - Synology Drive Client https://www.synology.com/en-us/drive
 #   - Photosync Companion https://www.photosync.com/en-us
 #   - Expo Orbit https://expo.io
-
 
 # Things to do:
 #   - resync syncthing tasks to Kanto NAS and SSD drives

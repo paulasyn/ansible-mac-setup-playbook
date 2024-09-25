@@ -39,7 +39,12 @@ homebrew_casks:
 - obsidian
 - applite
 - forklift
+- obs
 
+  # - name: cmake # don't know if I care to install this
+  # - name: code-server # don't know if I care to install this
+  # - name: coder # don't know if I care to install this
+  # - name: czkawka # install this through rust?
   # - name: node # don't know if I care to install this
   # - name: pyenv # don't know if I care to install this
   # - name: warp # don't know if I care to install this
