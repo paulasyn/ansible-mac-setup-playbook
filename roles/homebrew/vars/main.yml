@@ -22,6 +22,8 @@ homebrew_packages:
 - tree
 - rsync
 - htop
+- fswatchs
+- tree
 
 homebrew_casks:
 - google-chrome
@@ -40,6 +42,7 @@ homebrew_casks:
 - applite
 - forklift
 - obs
+- launchcontrol
 
   # - name: cmake # don't know if I care to install this
   # - name: code-server # don't know if I care to install this

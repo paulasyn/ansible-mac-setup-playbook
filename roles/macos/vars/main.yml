@@ -81,6 +81,7 @@ mas_packages:
 - 899247664  # TestFlight
 - 524141863  # Jump Desktop (RDP, VNC, Fluid)
 - 497799835  # Xcode
+- 6711361182 # Strikethrough
 
 # Need to Install:
 #   ideas: https://gist.github.com/chris-sev/45a92f4356eaf4d68519d396ef42dd99

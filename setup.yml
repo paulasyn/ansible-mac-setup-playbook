@@ -3,9 +3,9 @@
   hosts: localhost
   roles: 
   # - homebrew
-  - python
+  # - python
   # - npm
-  # - macos
+  - macos
 
   # tasks:
   #   # # 4. Copy dotfiles from backup (Assumes dotfiles are in a repo)
