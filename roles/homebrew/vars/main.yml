@@ -22,8 +22,9 @@ homebrew_packages:
 - tree
 - rsync
 - htop
-- fswatchs
+- fswatch
 - tree
+- yadm
 
 homebrew_casks:
 - google-chrome
@@ -43,6 +44,7 @@ homebrew_casks:
 - forklift
 - obs
 - launchcontrol
+- pearcleaner
 
   # - name: cmake # don't know if I care to install this
   # - name: code-server # don't know if I care to install this
