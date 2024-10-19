@@ -1,11 +1,13 @@
 roles:
   - name: elliotweiser.osx-command-line-tools
   - name: geerlingguy.dotfiles
-  - name: community.general.mas
-  - name: community.general.npm
-  - name: community.general.pipx
+  
+  # - name: community.general.mas
+  # - name: community.general.npm
+  # - name: community.general.pipx
 
 collections:
   - name: geerlingguy.mac
+  - name: community.general
 
 # ansible-galaxy install -r requirements.yml
