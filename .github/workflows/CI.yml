@@ -53,13 +53,13 @@ jobs:
 
       - name: Install test dependencies.
         run: |
-          # sudo pip3 install --upgrade pip
-          # sudo pip3 install ansible
-          sudo python3 -m pip install --user pipx
-          sudo python3 -m pipx ensurepath --global
-          sudo python3 -m pipx install --include-deps ansible
-          export PATH="$PATH:/opt/pipx_bin"
-          source ~/.bashrc
+          sudo pip3 install --upgrade pip
+          sudo pip3 install ansible
+          # sudo python3 -m pip install --user pipx
+          # sudo python3 -m pipx ensurepath --global
+          sudo python3 -m install --include-deps ansible
+          # export PATH="$PATH:/opt/pipx_bin"
+          # source ~/.bashrc
 
       - name: Set up the test environment.
         run: |
