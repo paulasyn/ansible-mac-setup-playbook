@@ -2,10 +2,10 @@
 - name: Configure host.
   hosts: localhost
   roles: 
-  # - homebrew
-  # - python
-  # - npm
-  - macos
+  - homebrew
+  - python
+  - npm
+  # - macos
 
   # tasks:
   #   # # 4. Copy dotfiles from backup (Assumes dotfiles are in a repo)
