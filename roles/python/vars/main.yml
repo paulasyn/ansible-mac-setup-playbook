@@ -4,7 +4,7 @@ pip_packages:
 - confuse
 - future
 - httptools
-- jellyfish
+# - jellyfish
 - macholib
 - mediafile
 - musicbrainzngs
