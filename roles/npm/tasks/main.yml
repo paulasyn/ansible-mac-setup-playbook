@@ -1,6 +1,4 @@
 ---
-
-
 - name: Install global npm packages".
   nodejs_npm_global_packages:
     name: "{{ item }}"

@@ -4,8 +4,8 @@
   roles: 
   - homebrew
   - python
-  - npm
-  # - macos
+  # - npm
+  - macos
 
   # tasks:
   #   # # 4. Copy dotfiles from backup (Assumes dotfiles are in a repo)
