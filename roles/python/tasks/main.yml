@@ -3,6 +3,8 @@
 #   ansible.builtin.pip:
 #     name: pipx
 #     state: present
+- name: change shell to zsh
+  ansible.builtin.shell: chsh -s $(which zsh)
 
 - name: Install multiple packages from list
   ansible.builtin.pip:
