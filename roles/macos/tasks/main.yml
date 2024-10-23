@@ -1,4 +1,7 @@
 ---
+- name: change shell to zsh
+  ansible.builtin.shell: chsh -s $(which zsh)
+
 - name: Install Mac App Store apps
   community.general.mas:
     id: "{{ item }}"
