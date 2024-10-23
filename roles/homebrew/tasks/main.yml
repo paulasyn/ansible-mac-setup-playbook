@@ -1,4 +1,7 @@
 ---
+- name: change shell to zsh
+  ansible.builtin.shell: chsh -s $(which zsh)
+
 - name: Install Homebrew
   shell: |
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
