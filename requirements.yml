@@ -1,6 +1,6 @@
 roles:
   - name: elliotweiser.osx-command-line-tools
-  - name: geerlingguy.dotfiles.
+  - name: geerlingguy.dotfiles
   - name: geerlingguy.nodejs
   
   # - name: community.general.mas
