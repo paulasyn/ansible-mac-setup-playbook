@@ -5,6 +5,8 @@
 #     state: present
 - name: change shell to zsh
   ansible.builtin.shell: chsh -s $(which zsh)
+  
+  # TODO: use pyenv to manage python versions, have it activated and to be used by the system. Exist separate but side-by-side with homebrew python.
 
 - name: Install multiple packages from list
   ansible.builtin.pip:
