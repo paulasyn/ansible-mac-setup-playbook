@@ -12,5 +12,4 @@
   ansible.builtin.pip:
     name: "{{ item }}"
     state: latest
-    # global: yes
   with_items: "{{ pip_packages }}"
