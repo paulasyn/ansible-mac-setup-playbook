@@ -41,10 +41,8 @@ homebrew_casks:
 - spotify
 - obsidian
 - applite
-- forklift
 - obs
-- launchcontrol
-- pearcleaner
+- appcleaner
 
   # - name: cmake # don't know if I care to install this
   # - name: code-server # don't know if I care to install this
