@@ -6,6 +6,7 @@ homebrew_packages:
 - mas
 - midnight-commander
 - rclone
+- git
 - gh
 - watchman
 - mackup
@@ -14,10 +15,8 @@ homebrew_packages:
 - diff-so-fancy
 - pure
 - exiftool
-- zsh-autosuggestions
 - neovim
-- curl
-- zsh-completions
+- curl 
 - stow
 - tree
 - rsync
@@ -25,6 +24,7 @@ homebrew_packages:
 - fswatch
 - tree
 - yadm
+- eza
 
 homebrew_casks:
 - google-chrome
