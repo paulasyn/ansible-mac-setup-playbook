@@ -1,12 +1,12 @@
 ---
-# - name: Install pipx python package
-#   ansible.builtin.pip:
-#     name: pipx
-#     state: present
-- name: change shell to zsh
-  ansible.builtin.shell: chsh -s $(which zsh)
-  
-  # TODO: use pyenv to manage python versions, have it activated and to be used by the system. Exist separate but side-by-side with homebrew python.
+- name: check python is coming from pyenv
+  command: which python
+  register: output
+  changed_when: false
+  # failed_when: '"homebrew" in output.msg'
+  # TODO: work on this later https://stackoverflow.com/questions/75308705/changed-when-in-ansible
+
+- debug: msg="{{ output.stdout }}"
 
 - name: Install multiple packages from list
   ansible.builtin.pip:

@@ -1,6 +1,6 @@
 ---
-- name: change shell to zsh
-  ansible.builtin.shell: chsh -s $(which zsh)
+# - name: change shell to zsh
+#   ansible.builtin.shell: chsh -s $(which zsh)
 
 - name: Install Homebrew
   shell: |
@@ -14,8 +14,8 @@
     state: present
   loop: "{{ homebrew_packages }}"
 
-- name: Install Homebrew Casks
-  homebrew_cask:
-    name: "{{ item }}"
-    state: present
-  loop: "{{ homebrew_casks }}"
+# - name: Install Homebrew Casks
+#   homebrew_cask:
+#     name: "{{ item }}"
+#     state: present
+#   loop: "{{ homebrew_casks }}"
