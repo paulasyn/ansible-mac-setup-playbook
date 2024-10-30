@@ -1,69 +1,4 @@
 ---
-dockitems_remove:
-  - Safari
-  - Calendar
-  - Contacts
-  - Notes
-  - TV
-  - Music
-
-dockitems_persist:
-  - name: "Disk Utility"
-    path: "/Applications/Utilities/Disk Utility.app"
-    pos: 2
-
-  - name: "App Store"
-    path: "/Applications/App Store.app"
-    pos: 3
-
-  - name: "Launchpad"
-    path: "/Applications/Launchpad.app"
-    pos: 4
-
-  - name: "Homekit"
-    path: "/Applications/Homekit.app"
-    pos: 5
-
-  - name: "iTerm2"
-    path: "/Applications/iTerm2.app"
-    pos: 6
-
-  - name: "Freeform"
-    path: "/Applications/Freeform.app"
-    pos: 7
-
-  - name: "FreeFileSync"
-    path: "/Applications/FreeFileSync.app"
-    pos: 8
-
-  - name: "Facetime"
-    path: "/Applications/Facetime.app"
-    pos: 9
-
-  - name: "Messages"
-    path: "/Applications/Messages.app"
-    pos: 10
-
-  - name: "Orion"
-    path: "/Applications/Orion.app"
-    pos: 11
-
-  - name: "Structured"
-    path: "/Applications/Structured.app"
-    pos: 12
-
-  - name: "System Settings"
-    path: "/Applications/System Settings.app"
-    pos: 13
-
-  - name: "Mail"
-    path: "/Applications/Mail.app"
-    pos: 14
-
-  - name: "Calendar"
-    path: "/Applications/Calendar.app"
-    pos: 15
-
 mas_packages:
 # dock items
 - 1499198946 # Structured - Daily Planner
@@ -81,8 +16,10 @@ mas_packages:
 - 899247664  # TestFlight
 - 524141863  # Jump Desktop (RDP, VNC, Fluid)
 - 497799835  # Xcode
-- 6711361182 # Strikethrough
 - 1586435171 # Actions from Sindre Sorhus
+# - 418818452 # Phtotosync Companion -- doesn't work
+# - hyperduck from Sindre Sorhus
+# - scratchpad from Sindre Sorhus
 
 # Need to Install:
 #   ideas: https://gist.github.com/chris-sev/45a92f4356eaf4d68519d396ef42dd99
