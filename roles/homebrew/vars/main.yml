@@ -25,6 +25,9 @@ homebrew_packages:
 - tree
 - yadm
 - eza
+- bitwarden-cli
+- pv
+- docker-compose
 
 homebrew_casks:
 - google-chrome
@@ -43,6 +46,12 @@ homebrew_casks:
 - applite
 - obs
 - appcleaner
+- dockdoor
+- karabiner-elements
+- betterdisplay
+- bambu-studio
+- docker
+- smartmontools
 
   # - name: cmake # don't know if I care to install this
   # - name: code-server # don't know if I care to install this

@@ -1,12 +1,15 @@
 ---
 - name: check python is coming from pyenv
   command: which python
-  register: output
+  register: pyenv_used
   changed_when: false
   # failed_when: '"homebrew" in output.msg'
   # TODO: work on this later https://stackoverflow.com/questions/75308705/changed-when-in-ansible
 
-- debug: msg="{{ output.stdout }}"
+# - debug: msg="{{ output.stdout }}"
+# - name: Python is installed from pyenv
+#   debug: msg="{{ pyenv_used.stdout }}"
+#   success_when: pyenv_used is success
 
 - name: Install multiple packages from list
   ansible.builtin.pip:

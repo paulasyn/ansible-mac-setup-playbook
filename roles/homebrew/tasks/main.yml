@@ -14,8 +14,8 @@
     state: present
   loop: "{{ homebrew_packages }}"
 
-# - name: Install Homebrew Casks
-#   homebrew_cask:
-#     name: "{{ item }}"
-#     state: present
-#   loop: "{{ homebrew_casks }}"
+- name: Install Homebrew Casks
+  homebrew_cask:
+    name: "{{ item }}"
+    state: present
+  loop: "{{ homebrew_casks }}"

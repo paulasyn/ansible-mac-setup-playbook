@@ -4,6 +4,7 @@ mas_packages:
 - 1499198946 # Structured - Daily Planner
 # menu bar
 - 1160435653 # AutoMounter
+# also get the helper app https://www.pixeleyes.co.nz/automounter/helper/ 
 - 1475387142 # Tailscale
 - 1352778147 # Bitwarden
 - 905953485  # NordVPN
@@ -17,9 +18,13 @@ mas_packages:
 - 524141863  # Jump Desktop (RDP, VNC, Fluid)
 - 497799835  # Xcode
 - 1586435171 # Actions from Sindre Sorhus
+- 6444121398 # Ente Auth
+- 571213070  # DaVinci Resolve
 # - 418818452 # Phtotosync Companion -- doesn't work
 # - hyperduck from Sindre Sorhus
 # - scratchpad from Sindre Sorhus
+# folderpeek from Sindre Sorhus
+
 
 # Need to Install:
 #   ideas: https://gist.github.com/chris-sev/45a92f4356eaf4d68519d396ef42dd99
