@@ -2,11 +2,11 @@
 - name: Configure host.
   hosts: localhost
   roles: 
-  # - homebrew
-  # - python
+  - homebrew
+  - python
   # - npm
-  # - macos
-  - dock
+  - macos
+  # - dock
     
 
   # tasks:

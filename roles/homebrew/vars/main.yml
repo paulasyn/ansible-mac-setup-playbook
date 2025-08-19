@@ -36,7 +36,7 @@ homebrew_casks:
 - orion
 - raycast
 - rectangle
-- shottr
+# - shottr
 - syncthing
 - iterm2
 - visual-studio-code
@@ -47,8 +47,8 @@ homebrew_casks:
 - obs
 - appcleaner
 - dockdoor
-- karabiner-elements
-- betterdisplay
+# - karabiner-elements
+# - betterdisplay
 - bambu-studio
 - docker
 - smartmontools
