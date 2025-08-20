@@ -28,12 +28,13 @@ homebrew_packages:
 - bitwarden-cli
 - pv
 - docker-compose
+- mactex
+- smartmontools
 
 homebrew_casks:
 - google-chrome
 - jordanbaird-ice
-- mactex
-- orion
+# - orion
 - raycast
 - rectangle
 # - shottr
@@ -51,7 +52,7 @@ homebrew_casks:
 # - betterdisplay
 - bambu-studio
 - docker
-- smartmontools
+
 
   # - name: cmake # don't know if I care to install this
   # - name: code-server # don't know if I care to install this

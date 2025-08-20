@@ -11,15 +11,15 @@ mas_packages:
 - 1569600264 # Pandan
 # apps
 - 360593530  # Notability
-- 6443941139 # 2FAS - Two Factor Authentication Extension
+# - 6443941139 # 2FAS - Two Factor Authentication Extension
 - 803453959  # Slack
 - 497799835  # Xcode
-- 899247664  # TestFlight
+# - 899247664  # TestFlight
 - 524141863  # Jump Desktop (RDP, VNC, Fluid)
 - 497799835  # Xcode
 - 1586435171 # Actions from Sindre Sorhus
 - 6444121398 # Ente Auth
-- 571213070  # DaVinci Resolve
+- 524141863 # Jump Desktop (RDP, VNC, Fluid)
 # - 418818452 # Phtotosync Companion -- doesn't work
 # - hyperduck from Sindre Sorhus
 # - scratchpad from Sindre Sorhus
